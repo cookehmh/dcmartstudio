@@ -1349,3 +1349,132 @@ input, select, textarea {
 				}
 
 		}
+
+/* Site nav link in gallery sidebar */
+
+	#header .nav-links {
+		margin: 1.25em 0 0 0;
+		font-size: 0.9em;
+	}
+
+		#header .nav-links a {
+			border-bottom-color: transparent;
+			font-weight: 500;
+			color: #555;
+		}
+
+			#header .nav-links a:hover {
+				color: #00D3B7;
+			}
+
+/* About page */
+
+	html.page-about,
+	body.page-about {
+		background: #f7f4ef;
+		background-color: #f7f4ef;
+		color: #555;
+		overflow-x: hidden;
+		overflow-y: auto;
+		height: auto;
+		min-height: 100vh;
+	}
+
+		body.page-about.is-preload-0 #about {
+			opacity: 0;
+		}
+
+	#about {
+		-moz-transition: opacity 0.75s ease-in-out;
+		-webkit-transition: opacity 0.75s ease-in-out;
+		-ms-transition: opacity 0.75s ease-in-out;
+		transition: opacity 0.75s ease-in-out;
+		max-width: 42em;
+		margin: 0 auto;
+		padding: 3.5em 1.75em 4em 1.75em;
+		opacity: 1;
+	}
+
+		.about-header {
+			margin-bottom: 2em;
+		}
+
+		.about-brand {
+			margin: 0 0 0.75em 0;
+			font-size: 0.95em;
+			letter-spacing: 0.04em;
+			text-transform: lowercase;
+		}
+
+			.about-brand a {
+				border-bottom: none;
+				color: #222;
+				font-weight: 700;
+			}
+
+				.about-brand a:hover {
+					color: #00D3B7;
+				}
+
+		.about-header h1 {
+			margin: 0 0 0.35em 0;
+			color: #222;
+			font-size: 2em;
+			line-height: 1.2;
+		}
+
+		.about-lead {
+			margin: 0;
+			color: #777;
+		}
+
+		.about-portrait {
+			margin: 0 0 2em 0;
+			overflow: hidden;
+			border-radius: 4px;
+		}
+
+			.about-portrait img {
+				display: block;
+				width: 100%;
+				height: auto;
+			}
+
+		.about-copy p {
+			margin: 0 0 1.25em 0;
+			color: #555;
+			font-size: 1.05em;
+		}
+
+		.about-actions {
+			margin: 2em 0 0 0;
+		}
+
+			.about-actions .button {
+				margin: 0 0.75em 0.75em 0;
+				border-bottom: solid 1px #ccc;
+			}
+
+		.about-footer {
+			margin-top: 3em;
+			padding-top: 1.5em;
+			border-top: solid 1px #e4dfd6;
+			font-size: 0.8em;
+			color: #888;
+		}
+
+			.about-footer p {
+				margin: 0;
+			}
+
+		@media screen and (max-width: 480px) {
+
+			#about {
+				padding: 2.25em 1.25em 3em 1.25em;
+			}
+
+			.about-header h1 {
+				font-size: 1.65em;
+			}
+
+		}
